@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 from selenium.webdriver.edge.service import Service
 
 def setup_driver():
-    # Replace the path with the path to your web driver
-    path = "C:\\edgedriver_win64\\msedgedriver.exe"
+   
+    path = "C:\\edgedriver_win64\\msedgedriver.exe"             # sir please Replace the path with the path to your web driver (edge driver for microsoft edge browser)
     # Choose the appropriate web driver for your browser
     service = Service(executable_path=path)
     driver = webdriver.Edge(service=service)
